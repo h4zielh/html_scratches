@@ -1,2 +1,2 @@
 # html_scratches
-repository to test somethings in html
+ I made this repository just to test some ideas, no big deal.
