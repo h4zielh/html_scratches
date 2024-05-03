@@ -76,3 +76,13 @@ a[href="https://www.google.com"] {
 ul > li {
     color: magenta;
 }
+
+/* selects anything */
+* {
+    /* modify here */
+}
+
+/* selects any element that inherits from ul and is being hovered: */
+ul > *:hover {
+    color: black;
+}
