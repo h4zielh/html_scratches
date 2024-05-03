@@ -1,3 +1,6 @@
+/* we can also include another css file inside this documment: */
+/* @import "styles.css"; */
+
 p {
     color: green;
 }
@@ -47,4 +50,15 @@ h1 + ul + p {
 /* select any element in class special inside p that comes right after h2*/
 h2 + p .special {
     color: yellow;
+  }
+
+  /* we can also include media queries to include conditional rules to our documment,
+  in the examble below we set the background color to gray if the screen size is wider
+  than 30em: */
+
+  @media (min-width: 30em) {
+    body {
+        background-color: gray;
+    }
+
   }
