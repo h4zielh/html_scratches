@@ -71,3 +71,8 @@ a[href="https://www.google.com"] {
 #orange {
     color: orange;
 }
+
+/* modify any li that is children of an ul*/
+ul > li {
+    color: magenta;
+}
