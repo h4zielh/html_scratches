@@ -62,3 +62,8 @@ h2 + p .special {
     }
 
   }
+
+  /* modify any a elment wich href value is equal the google link*/
+a[href="https://www.google.com"] {
+    color: red;
+}
