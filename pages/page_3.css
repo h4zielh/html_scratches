@@ -66,3 +66,8 @@ in the examble below we set the background color to gray if the screen size is w
 a[href="https://www.google.com"] {
     color: red;
 }
+
+/* modify the size of a element with id equal to "orange" */
+#orange {
+    color: orange;
+}
