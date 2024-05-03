@@ -22,3 +22,7 @@ div {
 li em {
     color: rgb(145, 0, 72);
 }
+
+h1 + p {
+    color: brown;
+}
