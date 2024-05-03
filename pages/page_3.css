@@ -62,7 +62,7 @@ in the examble below we set the background color to gray if the screen size is w
     }
 }
 
-/* modify any a elment wich href value is equal the google link*/
+/* modify any a elment wich href value is exactly equal the google link*/
 a[href="https://www.google.com"] {
     color: red;
 }
