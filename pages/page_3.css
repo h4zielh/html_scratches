@@ -26,3 +26,7 @@ li em {
 h1 + p {
     color: brown;
 }
+
+.magenta {
+    color: magenta;
+}
