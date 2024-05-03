@@ -32,9 +32,14 @@ h1 + p {
 }
 
 a:link {
-    color: pink;
+    color: rgb(60, 77, 0);
 }
   
 a:visited {
     color: green;
+}
+
+/* selects any <p> that comes directly after a <ul>, which comes directly after an <h1>  */
+h1 + ul + p {
+    color: gray;
 }
