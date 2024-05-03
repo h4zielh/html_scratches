@@ -43,3 +43,8 @@ a:visited {
 h1 + ul + p {
     color: gray;
 }
+
+/* select any element in class special inside p that comes right after h2*/
+h2 + p .special {
+    color: yellow;
+  }
