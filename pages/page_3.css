@@ -18,3 +18,7 @@ div {
     display: block;
     margin: 0;
 }
+
+li em {
+    color: rgb(145, 0, 72);
+}
