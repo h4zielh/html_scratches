@@ -86,3 +86,36 @@ ul > li {
 ul > *:hover {
     color: black;
 }
+
+/* selects an element with attribute attr */
+a[attr] {
+    /* modify here*/
+}
+
+/* selects an element that constains "value" inside its attribute
+attr or if "value" in cointained inside attr list of value */
+a[attr~="value"] {
+
+}
+
+/* Matches elements with an attr attribute whose value is exactly value or
+begins with value immediately followed by a hyphen. */
+div[attr|="value"] {
+
+}
+
+/* Matches elements with an attr attribute, whose value begins with value. */
+[attr^="value"] {
+
+}
+
+/* Matches elements with an attr attribute whose value ends with value. */
+[attr$="value"] {
+
+}
+
+/* Matches elements with an attr attribute whose value contains value anywhere within the string. */
+[attr*=value] {
+
+}
+
