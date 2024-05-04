@@ -125,3 +125,8 @@ increased font size: */
 body + p::first-line {
     font-size: 200%;
 }
+
+/* here we modify the first line of the first paragraph element inside body :*/
+body p:first-child::first-line {
+    font-size: 200%;
+}
