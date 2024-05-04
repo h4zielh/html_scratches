@@ -120,9 +120,9 @@ div[attr|="value"] {
 }
 
 /* a pseudp-element starts with ::, it can be used to modify parts of an element, here the
-first pseudo-element inside the first paragraph of the page will me modified to have an
+first pseudo-element inside paragraphs inside of body of the page will me modified to have an
 increased font size: */
-body + p::first-line {
+body p::first-line {
     font-size: 200%;
 }
 
