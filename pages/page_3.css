@@ -133,5 +133,5 @@ body p:first-child::first-line {
 
 /* adds an link icon before any a element*/
 a::before {
-    content: "link_icon.jfif";
+    content: url("link_icon.jfif");
 }
