@@ -130,3 +130,8 @@ body p::first-line {
 body p:first-child::first-line {
     font-size: 200%;
 }
+
+/* adds an link icon before any a element*/
+a::before {
+    content: "link_icon.jfif";
+}
