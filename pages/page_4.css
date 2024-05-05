@@ -34,6 +34,6 @@ To add styles to a named nested layer, use the dot notation:
 .inline_content {
     display: flex;
     justify-content: space-between;
-    width: 100px;
+    width: 400px;
 }
 
