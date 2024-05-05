@@ -38,8 +38,6 @@ To add styles to a named nested layer, use the dot notation:
 }
 
 .diviser {
-    width: 3px; /* Adjust width as needed */
-    height: 100%; /* Set height to match container or desired length */
-    background-color: black; /* Set color of the line */
-    margin: 0 10px; /* Add margin for spacing */
+    border-right: 10px;
+    border-color: black;
 }
