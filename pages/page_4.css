@@ -32,6 +32,8 @@ To add styles to a named nested layer, use the dot notation:
 */
 
 .right {
-    display: flex;
+    position: sticky;
+    right: 0cqh;
+    left: 0%;
 }
 
