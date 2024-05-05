@@ -40,4 +40,5 @@ To add styles to a named nested layer, use the dot notation:
 .diviser {
     border-right: solid;
     border-color: black;
+    padding: 3px;
 }
