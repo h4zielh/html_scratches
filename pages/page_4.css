@@ -46,6 +46,10 @@ To add styles to a named nested layer, use the dot notation:
 }
 
 .in_center {
+    position: relative;
     text-align: center;
-    padding: 0% 20% 0% 20%;
+    padding: 0px 5% 0% 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
 }
