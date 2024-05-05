@@ -31,7 +31,7 @@ To add styles to a named nested layer, use the dot notation:
 }
 */
 
-.right {
-    text-align: right;
+.same_line_text {
+    display: flex;
 }
 
