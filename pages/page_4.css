@@ -37,10 +37,9 @@ To add styles to a named nested layer, use the dot notation:
     width: 400px;
 }
 
-.first_text::after {
-    margin: 5px;
-    height: 100%;
-    width: 3px;
-    color: black;
+.diviser {
+    width: 1px; /* Adjust width as needed */
+    height: 100%; /* Set height to match container or desired length */
+    background-color: black; /* Set color of the line */
+    margin: 0 10px; /* Add margin for spacing */
 }
-
