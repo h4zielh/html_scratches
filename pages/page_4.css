@@ -1,6 +1,23 @@
-/* creates the first layer: `body` */
+/* creates the first layer: `body`.
+
+Similar to how we have six levels of priority based on origin and importance,
+cascade layers enable us to create sub-origin level of priority within any of
+those origins.
+
+
+*/
 @layer layout {
     body {
       color:rgb(201, 201, 201);
     }
   }
+
+
+/*
+You can import more than one CSS file into a single layer. The following
+declaration imports two separate files into a single social layer:
+
+@import url(comments.css) layer(social);
+@import url(sm-icons.css) layer(social);
+*/
+
