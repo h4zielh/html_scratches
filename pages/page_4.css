@@ -35,6 +35,7 @@ To add styles to a named nested layer, use the dot notation:
     display: flex;
     justify-content: center;
     width: 400px;
+    position: calc();
 }
 
 .diviser {
@@ -42,4 +43,9 @@ To add styles to a named nested layer, use the dot notation:
     border-color: black;
     margin: 3% 3px;
     border-width: 2px;
+}
+
+.in_center {
+    left: 50%;
+    right: 50%;
 }
