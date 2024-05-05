@@ -8,7 +8,7 @@ those origins.
 */
 @layer layout {
     body {
-      color:rgb(201, 201, 201);
+      /* modify here */
     }
   }
 
@@ -20,4 +20,18 @@ declaration imports two separate files into a single social layer:
 @import url(comments.css) layer(social);
 @import url(sm-icons.css) layer(social);
 */
+
+/*
+To add styles to a named nested layer, use the dot notation:
+
+@layer example.layout {
+  main {
+    width: 50vw;
+  }
+}
+*/
+
+.right {
+    display: inline;
+}
 
