@@ -1,0 +1,6 @@
+/* creates the first layer: `body` */
+@layer layout {
+    body {
+      color:rgb(201, 201, 201);
+    }
+  }
