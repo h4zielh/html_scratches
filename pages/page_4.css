@@ -4,7 +4,6 @@ Similar to how we have six levels of priority based on origin and importance,
 cascade layers enable us to create sub-origin level of priority within any of
 those origins.
 
-
 */
 @layer layout {
     body {
@@ -53,3 +52,4 @@ To add styles to a named nested layer, use the dot notation:
     margin-right: 15%;
     width: 60%;
 }
+
