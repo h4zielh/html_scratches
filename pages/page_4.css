@@ -92,4 +92,29 @@ tml {
   font-family: "myFont", "Bitstream Vera Serif", serif;
 }
 
+you can also do like this:
+
+@font-face {
+  font-family: "zantrokeregular";
+  src:
+    url("zantroke-webfont.woff2") format("woff2"),
+    url("zantroke-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+which will import the zantrokeregular font looking in the .woff2 file, if the
+browser can't open it, it will try the .woff file, then we specify the wight
+and style of the font to be normal
 */
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}
+
+.box_1 {
+  
+}
