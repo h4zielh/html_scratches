@@ -116,5 +116,20 @@ and style of the font to be normal
 }
 
 .box_1 {
-  
+
 }
+
+/* we can test if the user's supports certain features using @supports:
+
+@supports (grid-template-rows: subgrid) {
+  .wrapper {
+    grid-template-rows: subgrid;
+    gap: 10px;
+    background-color: lightblue;
+    text-align: center;
+  }
+}
+
+this code will define the rulesets if the browser supports the property
+and value the parenthesys
+*/
