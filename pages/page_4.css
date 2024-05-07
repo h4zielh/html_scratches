@@ -75,3 +75,21 @@ have a final size of 32px.
     1px 1px 1px red, /* just separete with commas */
     2px 2px 1px red;
 }
+
+/*
+to exhibit a font the computer might not have, we can use @font-face on the
+beggining of the css file to specify a  file containing the font witch the
+users will download:
+
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff2");
+}
+
+then we can specify the name of the font we just downloaded, to be used normaly:
+
+tml {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+}
+
+*/
