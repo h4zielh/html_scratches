@@ -132,4 +132,10 @@ and style of the font to be normal
 
 this code will define the rulesets if the browser supports the property
 and value the parenthesys
+
+Feature queries are supported in all modern browsers. Write your CSS for fully supported features first,
+outside of any feature queries. Once your site is usable and accessible to all users, add new features
+within feature query blocks. Browsers that support the feature queried can then render the newer CSS
+inside the feature query block. Use the approach of writing well-supported CSS first, then enhancing
+features based on support.
 */
