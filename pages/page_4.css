@@ -3,15 +3,15 @@
 Similar to how we have six levels of priority based on origin and importance,
 cascade layers enable us to create sub-origin level of priority within any of
 those origins.
-*/
+
 
 @layer layout {
     body {
-      /* modify here */
+      /* modify here
     }
   }
 
-/*
+
 You can import more than one CSS file into a single layer. The following
 declaration imports two separate files into a single social layer:
 
