@@ -68,3 +68,10 @@ element will have a final size of 16px. Other elements may have different defaul
 sizes. For example, an h1 element has a size of 2em set by default, so it will
 have a final size of 32px.
 */
+
+/* we can set multiple shadows to the same text: */
+.with_shadow {
+  text-shadow:
+    1px 1px 1px red, /* just separete with commas /*
+    2px 2px 1px red;
+}
