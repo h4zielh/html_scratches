@@ -54,8 +54,17 @@ To add styles to a named nested layer, use the dot notation:
 }
 
 /* it's best to quote font names that contains spaces to avoid confusion by the
-interpreter to misunderstand with a reserve keyword os something */
+interpreter to misunderstand with a reserve keyword os something   */
 .font_dif {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*
+The font-size of an element is inherited from that element's parent element. This
+all starts with the root element of the entire document — <html> — the standard
+font-size of which is set to 16px across browsers. Any paragraph (or another
+element that doesn't have a different size set by the browser) inside the root
+element will have a final size of 16px. Other elements may have different default
+sizes. For example, an h1 element has a size of 2em set by default, so it will
+have a final size of 32px.
+*/
