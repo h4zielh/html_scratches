@@ -53,3 +53,7 @@ To add styles to a named nested layer, use the dot notation:
     width: 60%;
 }
 
+.font_dif {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
